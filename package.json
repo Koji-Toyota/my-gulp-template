@@ -1,0 +1,39 @@
+{
+  "name": "gulp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-prettier": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "webpack": "^5.58.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
+    "build:asset-only": "gulp build-asset-only",
+    "show-tasks": "gulp --tasks"
+  },
+  "browserslist": [
+    "ie >= 11",
+    "Android >= 4",
+    "iOS >= 10"
+  ]
+}

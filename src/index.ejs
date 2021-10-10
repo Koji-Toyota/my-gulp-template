@@ -1,0 +1,28 @@
+<%
+  const self = {
+    root: './',
+    uniqueselector: 'top',
+    title: 'test-site',
+    site_name: 'test-site',
+    description: 'ディスクリプションテキスト',
+    keywords: 'キーワード',
+    pageurl:'https://test-site.jp/',
+    update:''
+  }
+%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- include(self.root + '_parts/common/_head', {self}) %>
+    </head>
+    <body>
+      <%- include(self.root + '_parts/common/header/_header', {self}) %>
+      <div class="cm-Wrapper">
+        <div class="cm-Wrapper_Contner">
+          content
+        </div>
+      </div>
+      <%- include(self.root + '_parts/common/footer/_footer', {self}) %>
+      <%- include(self.root + '_parts/common/scripts/_scripts-Global', {self}) %>
+    </body>
+</html>

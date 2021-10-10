@@ -1,0 +1,16 @@
+@import "../../variables/variables.scss";
+@import "../../mixins/mixins.scss";
+
+.cm-Wrapper {
+  width: 100%;
+  min-width: 300px;
+  background: $color-base-white;
+}
+.cm-Wrapper_Contner {
+  @include page-container;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-bottom: 64px;
+}

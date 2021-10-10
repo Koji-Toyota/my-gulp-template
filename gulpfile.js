@@ -1,0 +1,10 @@
+require('./gulp/tasks/default');
+require('./gulp/tasks/mkdir');
+require('./gulp/tasks/clean');
+require('./gulp/tasks/copy');
+require('./gulp/tasks/template');
+require('./gulp/tasks/style');
+require('./gulp/tasks/script');
+require('./gulp/tasks/build');
+require('./gulp/tasks/build-asset-only');
+require('./gulp/tasks/watch');

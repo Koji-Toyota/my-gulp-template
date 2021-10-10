@@ -1,0 +1,14 @@
+// content-size
+$size-pc-content: 1080px;
+$size-pc-margin: 20px;
+$size-tablet-margin: 16px;
+$size-sp-margin: 10px;
+$size-pc-margin-inner: 40px;
+$size-sp-margin-inner: 10px;
+
+// for mediaquery
+$size-pc-large: $size-pc-content;
+$size-tablet: 900px;
+$size-tablet-small: 768px;
+$size-sp: 640px;
+$size-sp-small: 320px;
