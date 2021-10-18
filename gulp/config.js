@@ -16,11 +16,6 @@ module.exports = {
       dest: DEST_DIR + '/_assets/js',
       name: 'bundle-Global.js'
     },
-    /*slider: {
-      src:  SRC_DIR + '/_assets/js/slider.js',
-      dest: DEST_DIR + '/_assets/js',
-      name: 'bundle-Slider.js'
-    },*/
   },
   copy: {
     main: {

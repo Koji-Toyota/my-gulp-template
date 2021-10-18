@@ -16,13 +16,6 @@ gulp.task("script-global", (done) => {
   );
 });
 
-// スライダーのスクリプト
-/*gulp.task("script-slider", (done) => {
-  return webpackStream(webpackConfig.slider, webpack).pipe(
-    gulp.dest(config.script.slider.dest)
-  );
-});*/
-
 gulp.task(
   "script",
   gulp.series(gulp.parallel("script-global")),
