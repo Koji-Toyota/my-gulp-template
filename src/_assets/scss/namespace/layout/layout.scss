@@ -1,12 +1,12 @@
-@import "../../variables/variables.scss";
-@import "../../mixins/mixins.scss";
+@import "../../base/variables/variables.scss";
+@import "../../base/mixins/mixins.scss";
 
-.cm-Wrapper {
+.lo-Wrapper {
   width: 100%;
   min-width: 300px;
   background: $color-base-white;
 }
-.cm-Wrapper_Contner {
+.lo-Wrapper_Contner {
   @include page-container;
   display: flex;
   flex-flow: row nowrap;

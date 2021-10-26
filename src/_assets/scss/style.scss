@@ -1,5 +1,5 @@
 @import "./base/base";
-@import "./parts/common/layout";
+@import "./namespace/layout/layout";
 
-@import "./parts/common/header";
-@import "./parts/common/footer";
+@import "./structure/header/header";
+@import "./structure/footer/footer";

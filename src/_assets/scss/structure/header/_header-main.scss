@@ -1,13 +1,13 @@
-@import "../../variables/variables.scss";
-@import "../../mixins/mixins.scss";
+@import "../../base/variables/variables.scss";
+@import "../../base/mixins/mixins.scss";
 
-.cm-HeaderMain {
+.st-HeaderMain {
   position: relative;
   width: 100%;
   background-color: $color-base-white;
   border-bottom: solid 1px $color-main-bordergray;
 }
-.cm-HeaderMain_Container {
+.st-HeaderMain_Container {
   box-sizing: border-box;
   width: 100%;
   height: 50px;

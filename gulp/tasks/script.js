@@ -6,7 +6,7 @@ const webpack = require("webpack");
 
 const webpackConfig = {
   global: require("../webpack.config-global"),
-  /*slider: require("../webpack.config-slider"),*/
+  gift: require("../webpack.config-gift"),
 };
 
 // 汎用のスクリプト
@@ -16,16 +16,16 @@ gulp.task("script-global", (done) => {
   );
 });
 
-// スライダーのスクリプト
-/*gulp.task("script-slider", (done) => {
-  return webpackStream(webpackConfig.slider, webpack).pipe(
-    gulp.dest(config.script.slider.dest)
+// giftのスクリプト
+gulp.task("script-gift", (done) => {
+  return webpackStream(webpackConfig.gift, webpack).pipe(
+    gulp.dest(config.script.gift.dest)
   );
-});*/
+});
 
 gulp.task(
   "script",
-  gulp.series(gulp.parallel("script-global")),
+  gulp.series(gulp.parallel("script-global","script-gift")),
   (done) => {
     done();
   }
