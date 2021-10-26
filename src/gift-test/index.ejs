@@ -1,12 +1,12 @@
 <%
   const self = {
-    root: './',
+    root: '../',
     uniqueselector: 'top',
     title: 'test-site',
     site_name: 'test-site',
     description: 'ディスクリプションテキスト',
     keywords: 'キーワード',
-    pageurl:'https://test-site.jp/',
+    pageurl:'https://test-site.jp/test-site',
     update:''
   }
 %>
@@ -19,10 +19,11 @@
       <%- include(self.root + '_parts/common/header/_header', {self}) %>
       <div class="lo-Wrapper">
         <div class="lo-Wrapper_Contner">
-          content
+          <%- include(self.root + '_parts/gift/_giftTest', {self}) %>
         </div>
       </div>
       <%- include(self.root + '_parts/common/footer/_footer', {self}) %>
       <%- include(self.root + '_parts/common/scripts/_scripts-Global', {self}) %>
+      <%- include(self.root + '_parts/common/scripts/_scripts-Gift', {self}) %>
     </body>
 </html>

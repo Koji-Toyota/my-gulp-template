@@ -1,13 +1,13 @@
-@import "../../variables/variables.scss";
-@import "../../mixins/mixins.scss";
+@import "../../base/variables/variables.scss";
+@import "../../base/mixins/mixins.scss";
 
-.cm-FooterMain {
+.st-FooterMain {
   position: relative;
   width: 100%;
   background-color: $color-main-black;
   color: $color-base-white;
 }
-.cm-FooterMain_Container {
+.st-FooterMain_Container {
   box-sizing: border-box;
   width: 100%;
   height: 50px;

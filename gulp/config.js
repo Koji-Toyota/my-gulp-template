@@ -16,6 +16,11 @@ module.exports = {
       dest: DEST_DIR + '/_assets/js',
       name: 'bundle-Global.js'
     },
+    gift: {
+      src:  SRC_DIR + '/_assets/js/gift-set.js',
+      dest: DEST_DIR + '/_assets/js',
+      name: 'bundle-Gift.js'
+    },
   },
   copy: {
     main: {
